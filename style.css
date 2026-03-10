@@ -1,0 +1,36 @@
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-family:Arial;
+transition:0.5s;
+}
+
+.container{
+text-align:center;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+button{
+padding:10px 20px;
+font-size:18px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+background:black;
+color:white;
+}
+
+button:hover{
+opacity:0.8;
+}
+
+#codigoCor{
+margin-top:20px;
+font-size:20px;
+}
